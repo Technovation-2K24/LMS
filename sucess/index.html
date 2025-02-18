@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+
+    <!-- select login -->
+        <div class="form-box login">
+            <p>Never let the time tell you to stop Explore the limitless world of education<p>
+        </div>
+    
+    <!-- faculty login -->
+        <div class="form-box login1" style="display: none;">
+            <form action="#">
+                <h1>Faculty Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+                
+                <button type="submit" class="btn">Login</button>
+                <p>or login with college gmail id</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-google' ></i></a> 
+                </div>
+            </form>
+        </div>
+        
+    <!-- Student login -->
+        <div class="form-box login2" style="display: none">
+            <form action="#">
+                <h1>Student Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Student Username" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Student Password" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+                
+                <button type="submit" class="btn">Login</button>
+                <p>or login with college gmail id</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-google' ></i></a>
+                </div>
+            </form>
+        </div>
+    
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h1>Hello, Welcome!</h1>
+                <button class="btn register-btn1">Faculty Login</button>
+                <button class="btn register-btn2">Student Login</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+                <h1>Welcome !</h1>
+                <p>Get Started with AMS</p>
+                <button class="btn back-btn">Go back</button>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
